@@ -3,7 +3,7 @@
 Welcome to the Reversible Logic Gates repository! This repository provides a collection of reversible logic gates implemented using various hardware description languages. Each gate is accompanied by a description of its functionality and a corresponding gate schematic for reference.
 
 ## Feynman Gate
-![Feynman Gate](gate_1.png)
+![Feynman Gate](Feyman Gate/Feynman-gate.png)
 
 Description: The Feynman Gate is a reversible logic gate that swaps the second and third inputs if the first input is in the state |0⟩. If the first input is in the state |1⟩, it leaves the second and third inputs unchanged.
 
