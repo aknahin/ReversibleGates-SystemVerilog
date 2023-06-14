@@ -3,24 +3,24 @@
 Welcome to the Reversible Logic Gates repository! This repository provides a collection of reversible logic gates implemented using various hardware description languages. Each gate is accompanied by a description of its functionality and a corresponding gate schematic for reference.
 
 ## Feynman Gate
-![Feynman Gate](Feyman Gate/Feynman-gate.png)
+![Feynman Gate](Feyman%20Gate/Feynman-gate.png)
 
-Description: The Feynman Gate is a reversible logic gate that swaps the second and third inputs if the first input is in the state |0⟩. If the first input is in the state |1⟩, it leaves the second and third inputs unchanged.
+Feynman gate is a 2*2 one through reversible gateas shown in figure 2. The input vector is I(A, B) and theoutput vector is O(P, Q). The outputs are defined by P=A,Q=A XOR B. Quantum cost of a Feynman gate is 1.Feynman Gate (FG) can be used as a copying gate.
 
 ## Double Feynman Gate
-![Double Feynman Gate](gate_2.png)
+![Double Feynman Gate](Feyman%20Gate/Feynman-gate.png)
 
-Description: The Double Feynman Gate is a reversible logic gate that swaps the second and third inputs if the first input is in the state |0⟩. If the first input is in the state |1⟩, it swaps the fourth and fifth inputs.
+Double Feynman gate is 3 × 3 reversible gate. It has three inputs and three outputs. It has two XOR operations at the output terminals. A double Feynman gate was developed by using 93 QCA cells and 0.75 clock latency.
 
 ## Toffoli Gate
 ![Toffoli Gate](gate_3.png)
 
-Description: The Toffoli Gate, also known as the Controlled-Controlled-NOT (CCNOT) Gate, is a three-input gate that flips the third input if both the first and second inputs are in the state |1⟩. Otherwise, it leaves the third input unchanged.
+Fig 3 shows a 3*3 Toffoli gate. The input vector is I(A, B, C) and the output vector is O(P,Q,R). The outputsare given by P=A, Q=B, R=AB XOR C. Quantum cost of aToffoli gate is 5.
 
 ## Peres Gate
 ![Peres Gate](gate_4.png)
 
-Description: The Peres Gate is a three-input gate that flips the third input if the first and second inputs are in the same state. Otherwise, it leaves the third input unchanged.
+Fig 5 shows a 3*3 Peres gate. The input vector is I(A, B, C) and the output vector is O (P, Q, R). The outputis defined by P = A, Q = A XOR B and R=AB XOR C.Quantum cost of a Peres gate is 4.
 
 ## Contributing
 
