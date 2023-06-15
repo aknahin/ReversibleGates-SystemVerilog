@@ -20,12 +20,12 @@ module doublefeynmengate(
 
   always @(a or c) begin
     if (c==0) begin
-      q = a;
+      r = a;
     end else begin
       if (a==0) begin
-        q = c;
+        r = c;
       end else begin
-        q = 0;
+        r = 0;
       end
     end
   end
