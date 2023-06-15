@@ -7,7 +7,7 @@ module test_bench();
   logic tb_q;
   
   // instance of out
-  feymangate test1(.a(tb_a), .b(tb_b), .p(tb_p), .q(tb_q));
+  feynmengate test1(.a(tb_a), .b(tb_b), .p(tb_p), .q(tb_q));
   
   // functional part
   initial begin

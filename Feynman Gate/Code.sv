@@ -1,6 +1,6 @@
-// Feyman Gate
+// feynmen Gate
 
-module feymangate(
+module feynmengate(
     input bit a,b,
     output bit p,q
 );
