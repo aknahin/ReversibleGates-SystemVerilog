@@ -4,13 +4,13 @@ Welcome to the Reversible Logic Gates repository! This repository provides a col
 
 ## Feynman Gate
 
-![Feynman Gate](Feynmen%20Gate/Feynman-gate.png) ![Feynman Gate Waveform](Feynmen%20Gate/Feynmen%20Gate%20input%20and%20output%20wave.png)
+![Feynman Gate](Feynman%20Gate\Feynman-gate.png) ![Feynman Gate Waveform](Feynman%20Gate\Feynman%20Gate%20input%20and%20output%20wave.png)
 
 Feynman gate is a 2\*2 one through reversible gateas shown in figure 2. The input vector is I(A, B) and theoutput vector is O(P, Q). The outputs are defined by P=A,Q=A XOR B. Quantum cost of a Feynman gate is 1.Feynman Gate (FG) can be used as a copying gate.
 
 ## Double Feynman Gate
 
-![Double Feynman Gate](Feynmen%20Gate/Feynman-gate.png) ![Double Feynman Gate Waveform](Double%20Feynmen%20Gate/Double%20Feynmen%20Gate%20Input%20and%20output%20wave.png)
+![Double Feynman Gate](Double%20Feynman%20Gate\Double%20Feynman%20Gate%20Input%20and%20output%20wave.png) ![Double Feynman Gate Waveform](Double%20Feynman%20Gate\Double%20Feyman%20Gate.jfif)
 
 Double Feynman gate is 3 × 3 reversible gate. It has three inputs and three outputs. It has two XOR operations at the output terminals. A double Feynman gate was developed by using 93 QCA cells and 0.75 clock latency.
 
